@@ -1,0 +1,32 @@
+/* Task 1 styling */
+/*  In order to make it more readable and visible, I added some additional styling, but kept to what was required.*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    /* additional */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container ul {
+    border: 1px solid #000;
+    background-color: lightgray;
+    /* additional */
+    padding: 1rem 2rem; 
+    line-height: 2rem;
+    margin-top: 1rem;
+    border-radius: 10px; 
+}
+
+.container ul li.list-item {
+    font-weight: bold;
+    color: green;
+
+}
